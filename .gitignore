@@ -1,0 +1,43 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment folders
+env/
+venv/
+.venv/
+
+# Data folders (raw data is often large)
+data/raw/*
+data/processed/*
+
+# Model files
+models/*.h5
+models/*.hdf5
+models/*.pb
+models/*.onnx
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+build/
+dist/
+
+# IDE folders
+.vscode/
+.idea/
+
+# Generated files
+*.pickle
+*.pkl
