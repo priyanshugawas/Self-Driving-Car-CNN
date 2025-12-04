@@ -16,11 +16,11 @@ early NVIDIA behavioral cloning approaches.
 
 Key components include:
 
--   Dataset ingestion and preprocessing\
--   Image augmentation pipeline\
--   CNN architecture for regression\
--   Training loop with checkpoints and logging\
--   Inference pipeline for real-time steering predictions\
+-   Dataset ingestion and preprocessing
+-   Image augmentation pipeline
+-   CNN architecture for regression
+-   Training loop with checkpoints and logging
+-   Inference pipeline for real-time steering predictions
 -   Model export for deployment
 
 ------------------------------------------------------------------------
@@ -79,10 +79,10 @@ https://drive.google.com/file/d/1Ue4XohCOV5YXy57S_5tDfCVqzLr101M7/view
 
 The CNN architecture includes:
 
--   Input normalization\
--   Convolutional layers with ReLU activation\
--   Strided convolutions instead of pooling\
--   Fully connected layers for regression\
+-   Input normalization
+-   Convolutional layers with ReLU activation
+-   Strided convolutions instead of pooling
+-   Fully connected layers for regression
 -   Linear output neuron predicting steering angle
 
 A dropout layer is optionally added to reduce overfitting.
@@ -97,9 +97,9 @@ To train the model:
 
 Training features include:
 
--   Data augmentation\
--   Learning rate scheduling\
--   Model checkpointing\
+-   Data augmentation
+-   Learning rate scheduling
+-   Model checkpointing
 -   TensorBoard logging
 
 ------------------------------------------------------------------------
@@ -128,8 +128,8 @@ among others.
 ## 8. Notes
 
 -   The dataset is **not included** in this repository due to its size
-    (2.2 GB).\
--   Isert your dataset download link in the placeholder above.\
+    (2.2 GB).
+-   Isert your dataset download link in the placeholder above.
 -   To train the model, ensure the dataset is placed inside `data/driving_dataset/`.
 
 ------------------------------------------------------------------------
